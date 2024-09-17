@@ -23,5 +23,4 @@ print(f"\nResumo:")
 print(f"Valor do pacote em dólares: $ {valor_pacote_dolar:.2f}")
 print(f"Cotação do dólar: R$ {cotacao_dolar:.2f}")
 print(f"Valor do pacote em reais: R$ {valor_pacote_real:.2f}")
-print(f"Percentual de comissão do vendedor: {percentual_comissao}%")
-print(f"Comissão do vendedor: R$ {comissao_vendedor:.2f}")
+
