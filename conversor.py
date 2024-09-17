@@ -9,6 +9,11 @@ valor_pacote_dolar = float(input("Informe o valor do pacote de viagem em dólare
 cotacao_dolar = float(input("Informe a cotação atual do dólar: "))
 percentual_comissao = float(input("Informe o percentual de comissão do vendedor: "))
 
+# Validação para garantir que os valores inseridos sejam maiores que zero
+if valor_pacote_dolar <= 0 or cotacao_dolar <= 0 or percentual_comissao <= 0:
+    print("Erro: Todos os valores devem ser maiores que zero.")
+    exit(1)
+
 # Calculos
 valor_pacote_real = conversao_valor(valor_pacote_dolar, cotacao_dolar)
 comissao_vendedor = calcular_comissao(valor_pacote_real, percentual_comissao)
