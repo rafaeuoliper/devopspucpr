@@ -1,3 +1,8 @@
+from datetime import datetime
+
+data_atual = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+print(f"Data e hora atual: {data_atual}")
+
 def conversao_valor(valor_pacote_dolar, cotacao_dolar):
     return valor_pacote_dolar * cotacao_dolar
 
