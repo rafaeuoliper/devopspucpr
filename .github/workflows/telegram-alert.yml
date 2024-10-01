@@ -1,3 +1,5 @@
+//Configura alertas do Telegram via GitHub Actions
+
 name: Send Telegram Alert
 
 on:
